@@ -18,7 +18,7 @@ class ModelSettingsPage extends Page implements HasForms
 {
     use Concerns\InteractsWithFormActions;
 
-    protected static string $view = 'filament-model-settings::pages.model-settings-page';
+    protected string $view = 'filament-model-settings::pages.model-settings-page';
 
     /**
      * @var array<string, mixed> | null
